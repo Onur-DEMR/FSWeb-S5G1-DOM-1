@@ -43,3 +43,10 @@ console.log('Proje açıldı!')
 
 
 /* Kodlar Buradan aşağıya */
+let headerNavA=document.querySelectorAll("header nav a");
+headerNavA[0].textContent="Servisler";
+headerNavA[1].textContent="Ürünler";
+headerNavA[2].textContent="Vizyon";
+headerNavA[3].textContent="Özellikler";
+headerNavA[4].textContent="Hakkımızda";
+headerNavA[5].textContent="İletişim";
