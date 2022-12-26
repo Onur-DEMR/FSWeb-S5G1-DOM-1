@@ -50,3 +50,5 @@ for(let i=0;i<navA.length;i++){
   navA[i].textContent = siteContent.nav["nav-item-"+j];
   navA[i].setAttribute("class", "italic");
 }
+
+document.getElementById("logo-img").src = siteContent.images["logo-img"];
