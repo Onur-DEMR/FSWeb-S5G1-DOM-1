@@ -82,4 +82,7 @@ sec3[0].textContent = siteContent["iletisim"][ "adres"];
 sec3[1].textContent = siteContent["iletisim"]["telefon"];
 sec3[2].textContent = siteContent["iletisim"]["email"];
 
+const footer = document.querySelector("footer a");
+footer.textContent= siteContent["footer"]["copyright"];
+footer.setAttribute("class", "bold");
 
