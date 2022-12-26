@@ -52,3 +52,18 @@ for(let i=0;i<navA.length;i++){
 }
 
 document.getElementById("logo-img").src = siteContent.images["logo-img"];
+
+const sec1 = document.querySelector(".cta-text");
+sec1.querySelector("h1").textContent = siteContent.cta["h1"];
+sec1.querySelector("button").textContent = siteContent.cta["button"];
+
+document.getElementById("cta-img").src = siteContent.images["cta-img"];
+
+const sec2 = document.querySelectorAll(".top-content .text-content");
+sec2[0].querySelector("h4").textContent = siteContent["ana-içerik"]["özellikler-h4"];
+sec2[0].querySelector("p").textContent = siteContent["ana-içerik"][ "özellikler-içerik"];
+sec2[1].querySelector("h4").textContent = siteContent["ana-içerik"]["hakkımızda-h4"];
+sec2[1].querySelector("p").textContent = siteContent["ana-içerik"][ "hakkımızda-içerik"];
+
+document.getElementById("middle-img").src = siteContent.images["accent-img"];
+
