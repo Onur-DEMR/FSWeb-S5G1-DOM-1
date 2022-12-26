@@ -75,12 +75,11 @@ sec2b[1].querySelector("p").textContent = siteContent["ana-içerik"][ "ürünler
 sec2b[2].querySelector("h4").textContent = siteContent["ana-içerik"]["vizyon-h4"];
 sec2b[2].querySelector("p").textContent = siteContent["ana-içerik"][ "vizyon-içeriği"];
 
-const sec3 = document.querySelectorAll(".contact");
-sec3[0].querySelector("h4").textContent = siteContent["iletisim"]["iletişim-h4"];
-sec3[0].querySelector("p").textContent = siteContent["iletisim"][ "adres"];
-sec3[0].querySelector("p").textContent = siteContent["iletisim"]["telefon"];
-sec3[0].querySelector("p").textContent = siteContent["iletisim"]["email"];
+document.querySelector(".contact h4").textContent = siteContent["iletisim"]["iletişim-h4"];
 
-
+const sec3 = document.querySelectorAll(".contact p");
+sec3[0].textContent = siteContent["iletisim"][ "adres"];
+sec3[1].textContent = siteContent["iletisim"]["telefon"];
+sec3[2].textContent = siteContent["iletisim"]["email"];
 
 
