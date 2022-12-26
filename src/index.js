@@ -45,17 +45,8 @@ console.log('Proje açıldı!')
 /* Kodlar Buradan aşağıya */
 const navA=document.querySelectorAll("header nav a");
 
-navA[0].textContent = siteContent.nav["nav-item-1"];
-navA[1].textContent = siteContent.nav["nav-item-2"];
-navA[2].textContent = siteContent.nav["nav-item-3"];
-navA[3].textContent = siteContent.nav["nav-item-4"];
-navA[4].textContent = siteContent.nav["nav-item-5"];
-navA[5].textContent = siteContent.nav["nav-item-6"];
-
-navA[0].setAttribute("class", "italic");
-navA[1].setAttribute("class", "italic");
-navA[2].setAttribute("class", "italic");
-navA[3].setAttribute("class", "italic");
-navA[4].setAttribute("class", "italic");
-navA[5].setAttribute("class", "italic");
-
+for(let i=0;i<navA.length;i++){
+  let j = i+1;
+  navA[i].textContent = siteContent.nav["nav-item-"+j];
+  navA[i].setAttribute("class", "italic");
+}
