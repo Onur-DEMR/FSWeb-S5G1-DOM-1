@@ -67,3 +67,20 @@ sec2[1].querySelector("p").textContent = siteContent["ana-içerik"][ "hakkımız
 
 document.getElementById("middle-img").src = siteContent.images["accent-img"];
 
+const sec2b = document.querySelectorAll(".bottom-content .text-content");
+sec2b[0].querySelector("h4").textContent = siteContent["ana-içerik"]["servisler-h4"];
+sec2b[0].querySelector("p").textContent = siteContent["ana-içerik"][ "servisler-içeriği"];
+sec2b[1].querySelector("h4").textContent = siteContent["ana-içerik"]["ürünler-h4"];
+sec2b[1].querySelector("p").textContent = siteContent["ana-içerik"][ "ürünler-içeriği"];
+sec2b[2].querySelector("h4").textContent = siteContent["ana-içerik"]["vizyon-h4"];
+sec2b[2].querySelector("p").textContent = siteContent["ana-içerik"][ "vizyon-içeriği"];
+
+const sec3 = document.querySelectorAll(".contact");
+sec3[0].querySelector("h4").textContent = siteContent["iletisim"]["iletişim-h4"];
+sec3[0].querySelector("p").textContent = siteContent["iletisim"][ "adres"];
+sec3[0].querySelector("p").textContent = siteContent["iletisim"]["telefon"];
+sec3[0].querySelector("p").textContent = siteContent["iletisim"]["email"];
+
+
+
+
